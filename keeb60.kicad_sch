@@ -5491,7 +5491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Zodiark:ProMicro_rev2"
+		(property "Footprint" "TheOneProMicro-main:TheOneProMicro"
 			(at 38.1 41.91 0)
 			(effects
 				(font
@@ -12516,7 +12516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 72.39 78.74 0)
 			(effects
 				(font

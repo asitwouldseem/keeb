@@ -1802,6 +1802,66 @@
 		(color 0 0 0 0)
 		(uuid "fe362d1c-2364-4558-a7c2-c4e298c4e43c")
 	)
+	(no_connect
+		(at 43.18 71.12)
+		(uuid "1ccf2acf-6550-4f33-921f-a137aae546a0")
+	)
+	(no_connect
+		(at 55.88 38.1)
+		(uuid "1fdb69c9-16ac-4b32-9e45-e8d7ed65ac8d")
+	)
+	(no_connect
+		(at 35.56 71.12)
+		(uuid "3c62d3fd-3b46-4843-a634-2f3d985d3744")
+	)
+	(no_connect
+		(at 22.86 24.13)
+		(uuid "455416cd-43cb-44f9-a032-e3a9525a74d6")
+	)
+	(no_connect
+		(at 46.99 71.12)
+		(uuid "46eb2fc8-25e9-438c-b31b-1338801a56a0")
+	)
+	(no_connect
+		(at 22.86 35.56)
+		(uuid "64258711-0fe9-49b5-b733-cd9555527005")
+	)
+	(no_connect
+		(at 40.64 71.12)
+		(uuid "843151d0-20a0-47a6-9219-0c5a1656e5b7")
+	)
+	(no_connect
+		(at 33.02 71.12)
+		(uuid "863f613b-8991-4131-a2ee-de8df185d6ae")
+	)
+	(no_connect
+		(at 22.86 38.1)
+		(uuid "86b3f64e-decc-4660-a117-8366f588e791")
+	)
+	(no_connect
+		(at 38.1 71.12)
+		(uuid "9d529b86-0734-42aa-8e78-d9f178632ec9")
+	)
+	(no_connect
+		(at 55.88 35.56)
+		(uuid "b32988d1-9223-40ef-9f9f-4366e7e126ba")
+	)
+	(no_connect
+		(at 29.21 71.12)
+		(uuid "bbfe8e30-0328-4d71-83e6-d1c8db8876ab")
+	)
+	(no_connect
+		(at 22.86 26.67)
+		(uuid "c4c54b98-0431-4ecb-91e8-a6c5714476c8")
+	)
+	(no_connect
+		(at 49.53 71.12)
+		(uuid "dea662f8-92f3-4f2f-90e1-aa3619e41de1")
+	)
+	(no_connect
+		(at 55.88 30.48)
+		(uuid "f7a1791b-efa1-4814-aa53-b961d56a1793")
+	)
 	(wire
 		(pts
 			(xy 232.41 107.95) (xy 250.19 107.95)
@@ -3479,7 +3539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ee795d-176f-4e9a-9882-1726cf275362")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 269.24 119.3799 90)
 			(effects
 				(font
@@ -3497,7 +3557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 120.65 0)
 			(effects
 				(font
@@ -3551,7 +3611,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07376f30-e626-4ddb-b37d-724f7c9334ea")
-		(property "Reference" "D45"
+		(property "Reference" "D43"
 			(at 102.87 135.8899 90)
 			(effects
 				(font
@@ -3792,7 +3852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 100.33 137.16 0)
 			(effects
 				(font
@@ -3846,7 +3906,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D45")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -3862,7 +3922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0787aea6-3384-4413-b000-cddac523e24f")
-		(property "Reference" "D46"
+		(property "Reference" "D44"
 			(at 119.38 135.8899 90)
 			(effects
 				(font
@@ -3880,7 +3940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 137.16 0)
 			(effects
 				(font
@@ -3934,7 +3994,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D46")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -4037,7 +4097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 83.82 120.65 0)
 			(effects
 				(font
@@ -4401,7 +4461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 100.33 87.63 0)
 			(effects
 				(font
@@ -4471,7 +4531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6a93f1-21e1-4c87-baed-628363f61596")
-		(property "Reference" "D67"
+		(property "Reference" "D58"
 			(at 234.95 152.3999 90)
 			(effects
 				(font
@@ -4489,7 +4549,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 153.67 0)
 			(effects
 				(font
@@ -4543,7 +4603,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D67")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 182.88 120.65 0)
 			(effects
 				(font
@@ -4647,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22fea759-0609-489e-95dd-1a7af68d45b3")
-		(property "Reference" "D58"
+		(property "Reference" "D55"
 			(at 86.36 152.3999 90)
 			(effects
 				(font
@@ -4665,7 +4725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -4719,7 +4779,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D58")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -4735,7 +4795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "232b3549-ff5f-4b7c-a45e-8aff8d3ace07")
-		(property "Reference" "D55"
+		(property "Reference" "D52"
 			(at 269.24 135.8899 90)
 			(effects
 				(font
@@ -4753,7 +4813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -4807,7 +4867,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D55")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -4892,7 +4952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2697921a-1227-43ec-9262-0c217155c20b")
-		(property "Reference" "D49"
+		(property "Reference" "D47"
 			(at 168.91 135.8899 90)
 			(effects
 				(font
@@ -4910,7 +4970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 166.37 137.16 0)
 			(effects
 				(font
@@ -4964,7 +5024,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D49")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -4998,7 +5058,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 87.63 0)
 			(effects
 				(font
@@ -5155,7 +5215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 199.39 87.63 0)
 			(effects
 				(font
@@ -5312,7 +5372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 52.07 120.65 0)
 			(effects
 				(font
@@ -5469,7 +5529,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 100.33 120.65 0)
 			(effects
 				(font
@@ -5833,7 +5893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 87.63 0)
 			(effects
 				(font
@@ -5921,7 +5981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 52.07 87.63 0)
 			(effects
 				(font
@@ -6009,7 +6069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 87.63 0)
 			(effects
 				(font
@@ -6235,7 +6295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -6512,7 +6572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1429aa-283c-43e4-bcac-7a3d688892a9")
-		(property "Reference" "D47"
+		(property "Reference" "D45"
 			(at 135.89 135.8899 90)
 			(effects
 				(font
@@ -6530,7 +6590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 137.16 0)
 			(effects
 				(font
@@ -6584,7 +6644,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D47")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -6687,7 +6747,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -6775,7 +6835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -6932,7 +6992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 182.88 104.14 0)
 			(effects
 				(font
@@ -7140,7 +7200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cdfbb30-f84c-4632-877a-ecd6fc1cb352")
-		(property "Reference" "D62"
+		(property "Reference" "D56"
 			(at 152.4 152.3999 90)
 			(effects
 				(font
@@ -7158,7 +7218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -7212,7 +7272,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D62")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -7246,7 +7306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -7316,7 +7376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fcd3b14-5bd2-4341-9289-b70f29254ed1")
-		(property "Reference" "D68"
+		(property "Reference" "D59"
 			(at 252.73 152.3999 90)
 			(effects
 				(font
@@ -7334,7 +7394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 153.67 0)
 			(effects
 				(font
@@ -7388,7 +7448,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D68")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -7473,7 +7533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60db17a7-e4ac-40fe-aa85-561c7b997d9c")
-		(property "Reference" "D53"
+		(property "Reference" "D51"
 			(at 234.95 135.8899 90)
 			(effects
 				(font
@@ -7491,7 +7551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 137.16 0)
 			(effects
 				(font
@@ -7545,7 +7605,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D53")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 250.19 104.14 0)
 			(effects
 				(font
@@ -7667,7 +7727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 104.14 0)
 			(effects
 				(font
@@ -7755,7 +7815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 52.07 104.14 0)
 			(effects
 				(font
@@ -7981,7 +8041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 120.65 0)
 			(effects
 				(font
@@ -8138,7 +8198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 199.39 120.65 0)
 			(effects
 				(font
@@ -8295,7 +8355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 182.88 87.63 0)
 			(effects
 				(font
@@ -8434,7 +8494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e633f6-1401-4fdc-9c68-0288adad05c0")
-		(property "Reference" "D51"
+		(property "Reference" "D49"
 			(at 201.93 135.8899 90)
 			(effects
 				(font
@@ -8452,7 +8512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 199.39 137.16 0)
 			(effects
 				(font
@@ -8506,7 +8566,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D51")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -8540,7 +8600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -8766,7 +8826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -8836,7 +8896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8507dc0f-e988-4978-9c03-650bbc5dd3c5")
-		(property "Reference" "D56"
+		(property "Reference" "D53"
 			(at 54.61 152.3999 90)
 			(effects
 				(font
@@ -8854,7 +8914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 52.07 153.67 0)
 			(effects
 				(font
@@ -8908,7 +8968,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D56")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -9149,7 +9209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -9357,7 +9417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92cd16db-d08a-438d-a6f1-ec08460f2c6d")
-		(property "Reference" "D42"
+		(property "Reference" "D41"
 			(at 54.61 135.8899 90)
 			(effects
 				(font
@@ -9375,7 +9435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 52.07 137.16 0)
 			(effects
 				(font
@@ -9429,7 +9489,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -9445,7 +9505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9423d61f-31ab-4c0b-a895-aefb538541bc")
-		(property "Reference" "D52"
+		(property "Reference" "D50"
 			(at 218.44 135.8899 90)
 			(effects
 				(font
@@ -9463,7 +9523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 137.16 0)
 			(effects
 				(font
@@ -9517,7 +9577,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D52")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -9994,7 +10054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 83.82 104.14 0)
 			(effects
 				(font
@@ -10082,7 +10142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 87.63 0)
 			(effects
 				(font
@@ -10170,7 +10230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 166.37 120.65 0)
 			(effects
 				(font
@@ -10258,7 +10318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 83.82 87.63 0)
 			(effects
 				(font
@@ -10415,7 +10475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 104.14 0)
 			(effects
 				(font
@@ -10503,7 +10563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 104.14 0)
 			(effects
 				(font
@@ -10573,7 +10633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd9deb2-1199-48b2-9515-3e5ed9340fca")
-		(property "Reference" "D66"
+		(property "Reference" "D57"
 			(at 218.44 152.3999 90)
 			(effects
 				(font
@@ -10591,7 +10651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 153.67 0)
 			(effects
 				(font
@@ -10645,7 +10705,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D66")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -10730,7 +10790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1eecfb2-f597-4661-bb88-a7ee4f3673d6")
-		(property "Reference" "D44"
+		(property "Reference" "D42"
 			(at 86.36 135.8899 90)
 			(effects
 				(font
@@ -10748,7 +10808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 83.82 137.16 0)
 			(effects
 				(font
@@ -10802,7 +10862,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D44")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -10905,7 +10965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 120.65 0)
 			(effects
 				(font
@@ -10993,7 +11053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 166.37 104.14 0)
 			(effects
 				(font
@@ -11150,7 +11210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 199.39 104.14 0)
 			(effects
 				(font
@@ -11220,7 +11280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd694d3d-e08d-4d9d-bd7c-d3dcf617d7c0")
-		(property "Reference" "D48"
+		(property "Reference" "D46"
 			(at 152.4 135.8899 90)
 			(effects
 				(font
@@ -11238,7 +11298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 137.16 0)
 			(effects
 				(font
@@ -11292,7 +11352,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D48")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -11395,7 +11455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 87.63 0)
 			(effects
 				(font
@@ -11465,7 +11525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43469d1-9305-4e64-bc65-2297dddfb149")
-		(property "Reference" "D50"
+		(property "Reference" "D48"
 			(at 185.42 135.8899 90)
 			(effects
 				(font
@@ -11483,7 +11543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 182.88 137.16 0)
 			(effects
 				(font
@@ -11537,7 +11597,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D50")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -11571,7 +11631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 87.63 0)
 			(effects
 				(font
@@ -11729,7 +11789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 104.14 0)
 			(effects
 				(font
@@ -11799,7 +11859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b8952e-8e45-49f1-93be-3206977152ad")
-		(property "Reference" "D69"
+		(property "Reference" "D60"
 			(at 269.24 152.3999 90)
 			(effects
 				(font
@@ -11817,7 +11877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -11871,7 +11931,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D69")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -12043,7 +12103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -12269,7 +12329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 120.65 0)
 			(effects
 				(font
@@ -12339,7 +12399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e22263d4-7296-4280-a9e9-7259095d53f9")
-		(property "Reference" "D57"
+		(property "Reference" "D54"
 			(at 69.85 152.3999 90)
 			(effects
 				(font
@@ -12357,7 +12417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 153.67 0)
 			(effects
 				(font
@@ -12411,7 +12471,7 @@
 		(instances
 			(project "keeb60"
 				(path "/352791af-23f7-4e44-a171-c4b3d1d94775"
-					(reference "D57")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -12859,7 +12919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 120.65 0)
 			(effects
 				(font
@@ -12947,7 +13007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 120.65 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25704272256523510
+25706034230732695
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -89977,6 +89977,13 @@ Potentiometer horizontal Alps RK163 Single
 0
 3
 3
+Potentiometer_THT
+Potentiometer_Alps_RK27112MC
+12101A2 1210AX9 12A0B85 12A0BKR  Potentiometer, horizontal, Alps RK163 Dual, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk16/rk16.pdf
+Potentiometer horizontal Alps RK163 Dual
+0
+8
+6
 Potentiometer_THT
 Potentiometer_Bourns_20P_Horizontal
 Potentiometer, horizontal, Bourns 20P, https://www.mouser.at/datasheet/2/54/20-1159178.pdf

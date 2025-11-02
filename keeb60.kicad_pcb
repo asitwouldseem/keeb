@@ -6562,7 +6562,7 @@
 		(property "Reference" "K213"
 			(at 0 3.175 0)
 			(layer "F.Fab")
-			(uuid "8513b898-fbef-4782-abb5-790911c0ba89")
+			(uuid "49c03c81-a1f5-4f66-8122-32b26c958e94")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6573,7 +6573,7 @@
 		(property "Value" "Enter"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "3287f87b-d0c0-44f5-8591-c2f3a667aa76")
+			(uuid "e5722a26-aba0-41a7-b4fc-e31de0216d3e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6586,7 +6586,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "db5b2cc5-95a5-4615-b5d7-cb44a2d34ba8")
+			(uuid "68f81f26-4f42-4a3e-93be-7eea22ab755f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6600,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3f6db218-2cd0-4177-85f7-dd6f6629a7c8")
+			(uuid "181be091-9c4d-4e67-809e-1c0b2b321e0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43807,6 +43807,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 49.46875 84.51875)
+		(end 339.46875 183.76875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d579fd2d-1c88-4225-b2ac-42fbfb5cbef1")
 	)
 	(embedded_fonts no)
 )

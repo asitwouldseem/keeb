@@ -1368,6 +1368,12 @@
 		(uuid "235e1e9e-6bd1-4553-9b1b-9df4cf264fd6")
 	)
 	(junction
+		(at 143.51 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26128bee-df23-4b8a-887b-0a15c8f446df")
+	)
+	(junction
 		(at 209.55 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,12 +1432,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3502a721-4d03-47bd-a56b-d660a3bd203f")
-	)
-	(junction
-		(at 160.02 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35035c6b-d445-4a77-977b-6669ffe9421f")
 	)
 	(junction
 		(at 100.33 91.44)
@@ -1506,6 +1506,12 @@
 		(uuid "4fc79020-0ccf-4908-9619-a4a52019d170")
 	)
 	(junction
+		(at 133.35 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c488de5-ca83-452f-983f-be4ff1d6b9b6")
+	)
+	(junction
 		(at 226.06 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1552,12 +1558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f7b208b-dfba-43af-896e-8fed3b1ebb18")
-	)
-	(junction
-		(at 149.86 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "725b067b-469d-4b8a-b4ef-93a46a8c8a3d")
 	)
 	(junction
 		(at 215.9 157.48)
@@ -2211,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 166.37 157.48)
+			(xy 83.82 157.48) (xy 133.35 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2461,6 +2461,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 157.48) (xy 166.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693bc4ae-cb45-4103-9728-0b3cc1fda2ee")
+	)
+	(wire
+		(pts
 			(xy 100.33 91.44) (xy 116.84 91.44)
 		)
 		(stroke
@@ -2568,16 +2578,6 @@
 			(type default)
 		)
 		(uuid "7dd4f308-2687-413e-be82-d1ab66b69627")
-	)
-	(wire
-		(pts
-			(xy 83.82 157.48) (xy 149.86 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8717b9-54c4-4795-a1fd-0956c3353009")
 	)
 	(wire
 		(pts
@@ -2798,16 +2798,6 @@
 			(type default)
 		)
 		(uuid "abbe315a-fbee-48da-b7b0-6eabb426b111")
-	)
-	(wire
-		(pts
-			(xy 160.02 133.35) (xy 160.02 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad54be96-310c-41b9-a921-04f06473a579")
 	)
 	(wire
 		(pts
@@ -3088,6 +3078,16 @@
 			(type default)
 		)
 		(uuid "edee0436-bbf2-4641-bf3e-d3a991151bf0")
+	)
+	(wire
+		(pts
+			(xy 143.51 133.35) (xy 143.51 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07708ef-bd8b-4d9d-b6f7-22a43da4e4ac")
 	)
 	(wire
 		(pts
@@ -3423,7 +3423,7 @@
 			)
 		)
 	)
-	(global_label "Col6"
+	(global_label "Col5"
 		(shape input)
 		(at 60.96 43.18 0)
 		(fields_autoplaced yes)
@@ -3433,7 +3433,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bd231621-dc07-4e68-9e06-8f40f498a398")
+		(uuid "cd076261-86c0-470e-aa38-773a206308e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.2389 43.18 0)
 			(effects
@@ -3463,6 +3463,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col6"
+		(shape input)
+		(at 60.96 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d794f127-47ed-46bb-b55e-77aff52dab1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.2389 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3502,28 +3524,6 @@
 		(uuid "df4cf071-b109-4e77-b1c6-f0233a0b051f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.2389 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5"
-		(shape input)
-		(at 60.96 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2f1dac2-04fd-4761-b819-cf74644ab193")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2389 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5099,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 154.94 149.86 0)
+		(at 138.43 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5108,7 +5108,7 @@
 		(fields_autoplaced yes)
 		(uuid "245a8ed5-fb31-4022-80ad-e82bc75fe3a5")
 		(property "Reference" "K406"
-			(at 154.94 143.51 0)
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5117,7 @@
 			)
 		)
 		(property "Value" "Space"
-			(at 154.94 144.78 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5125,7 @@
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-6.25U-ReversedStabilizers"
-			(at 154.94 144.78 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 144.78 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5143,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 154.94 149.86 0)
+			(at 138.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7504,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 149.86 153.67 90)
+		(at 133.35 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7513,7 +7513,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cdfbb30-f84c-4632-877a-ecd6fc1cb352")
 		(property "Reference" "D54"
-			(at 152.4 152.3999 90)
+			(at 135.89 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +7522,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 152.4 154.9399 90)
+			(at 135.89 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +7531,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 149.86 153.67 0)
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +7540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 153.67 0)
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7549,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 149.86 153.67 0)
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7558,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 149.86 153.67 0)
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7567,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 153.67 0)
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

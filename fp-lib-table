@@ -3,4 +3,5 @@
   (lib (name "MX_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/libraries/MX_Hotswap.pretty")(options "")(descr ""))
   (lib (name "Alps_MX_Stabilizers")(type "KiCad")(uri "${KIPRJMOD}/libraries/Alps_MX_Stabilizers.pretty")(options "")(descr ""))
   (lib (name "TheOneProMicro-main")(type "KiCad")(uri "${KIPRJMOD}/libraries/TheOneProMicro-main")(options "")(descr ""))
+  (lib (name "MX_Solderable")(type "KiCad")(uri "${KIPRJMOD}/libraries/MX_Solderable.pretty")(options "")(descr ""))
 )

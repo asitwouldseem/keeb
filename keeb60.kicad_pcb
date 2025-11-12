@@ -15742,7 +15742,7 @@
 		(property "Reference" "K213"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
-			(uuid "6fbe353c-c45c-4910-beaa-50a4f534e43a")
+			(uuid "a44a9a16-8586-4252-8e0f-15d0a7880175")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15754,7 +15754,7 @@
 		(property "Value" "Enter"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "6bb6fd71-858a-46c6-b7c8-36e35361617c")
+			(uuid "88a6dac6-b852-4a4d-a582-33fc5c5caadf")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15767,7 +15767,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bf97a6c-9aac-4aff-99fb-939d46f0600f")
+			(uuid "f586794e-0890-4033-b297-44d25ac24189")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15780,7 +15780,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b460dc0-9237-4f25-831e-0e3d29efe9c8")
+			(uuid "b341a7b4-9ce9-45ac-8b99-ca28f0848a11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20526,7 +20526,7 @@
 		(property "Reference" "K406"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
-			(uuid "6d668d73-a680-4303-8a67-38fc55279e1b")
+			(uuid "fef558ab-b89c-4a44-9208-7be79b0b7672")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20538,7 +20538,7 @@
 		(property "Value" "Space"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "961bade5-8960-470f-a022-9b2000cfd672")
+			(uuid "4910e828-eb63-4786-9fae-9231a1327c96")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20551,7 +20551,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1457ff16-d3cb-4ae4-8c0f-27f63c2e783a")
+			(uuid "6989974c-8ffe-412a-8f9a-dad21c8f4c55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20564,7 +20564,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21b248f5-811b-4f9e-8817-1b9dd98f318f")
+			(uuid "2d83b1ca-3895-44a5-a2c1-97e986ca81a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44480,60 +44480,149 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 49.47 142.41)
-		(end 52.74 144.89)
+	(gr_line
+		(start 49.36 145.02)
+		(end 52.685 145.02)
 		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "4259dea0-e625-4793-8e18-fafc2aafa9b3")
-	)
-	(gr_arc
-		(start 52.74 142.41)
-		(mid 53.98 143.65)
-		(end 52.74 144.89)
-		(stroke
-			(width 0.05)
+			(width 0.25)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "508e841b-b0ed-455c-a06c-4686401613d9")
+		(uuid "2215686e-c737-4034-8f92-3e0d1a65d1b0")
 	)
-	(gr_arc
-		(start 336.185 144.91)
-		(mid 334.945 143.67)
-		(end 336.185 142.43)
+	(gr_curve
+		(pts
+			(xy 52.685 145.02) (xy 53.347742 145.02) (xy 53.885 144.482742) (xy 53.885 143.82)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.25)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7228fb9c-c62e-43ea-88d9-d31c993be549")
+		(uuid "24a3dcef-976a-42d6-ad3c-57073c8e1483")
 	)
-	(gr_rect
-		(start 336.185 142.43)
-		(end 339.455 144.91)
+	(gr_line
+		(start 336.035 145.02)
+		(end 339.36 145.02)
 		(stroke
-			(width 0.05)
+			(width 0.25)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "bb382105-f743-4e51-ad7b-9262e8b5ede7")
+		(uuid "253b1659-1b34-41be-86c6-2a3f37e43ccc")
 	)
-	(gr_rect
-		(start 49.46875 84.51875)
-		(end 339.46875 183.76875)
+	(gr_line
+		(start 49.36 183.92)
+		(end 49.36 145.02)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.25)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "d579fd2d-1c88-4225-b2ac-42fbfb5cbef1")
+		(uuid "3e5e5780-23f2-4692-8e36-78e6b2dd4916")
+	)
+	(gr_curve
+		(pts
+			(xy 53.885 143.82) (xy 53.885 143.157259) (xy 53.347742 142.62) (xy 52.685 142.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d82bbe5-8a4c-45f2-8ff5-b59360fd8e0f")
+	)
+	(gr_line
+		(start 339.36 142.62)
+		(end 336.035 142.62)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60d861a2-ef33-43c9-8dc8-b926d658287b")
+	)
+	(gr_line
+		(start 49.36 142.62)
+		(end 49.36 84.67)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "65586811-db7b-461b-9114-c0c2015370d3")
+	)
+	(gr_line
+		(start 52.685 142.62)
+		(end 49.36 142.62)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "664054f7-fa34-4f22-91d4-e0838f163fd8")
+	)
+	(gr_line
+		(start 339.36 183.92)
+		(end 49.36 183.92)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7bb857ac-8aad-48ac-9370-ec83797c4e1c")
+	)
+	(gr_curve
+		(pts
+			(xy 334.835 143.82) (xy 334.835 144.482742) (xy 335.372259 145.02) (xy 336.035 145.02)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "96cdee67-d297-4656-810f-1e20a792946e")
+	)
+	(gr_curve
+		(pts
+			(xy 336.035 142.62) (xy 335.372259 142.62) (xy 334.835 143.157259) (xy 334.835 143.82)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a3399179-e7e3-4e4b-8c30-1fd2175ba263")
+	)
+	(gr_line
+		(start 339.36 84.67)
+		(end 339.36 142.62)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b1c5e2a2-2fca-4ea5-bedf-1f6b68a739da")
+	)
+	(gr_line
+		(start 339.36 145.02)
+		(end 339.36 183.92)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2da18db-573b-4be0-b115-cba0fe90e9e5")
+	)
+	(gr_line
+		(start 49.36 84.67)
+		(end 339.36 84.67)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f646981a-d4fd-4fe2-8ff9-c6c8597d25e9")
 	)
 	(segment
 		(start 214.84 179.86375)
@@ -48702,6 +48791,17 @@
 		(layer "B.Cu")
 		(net 82)
 		(uuid "fdbe82ba-8f18-4858-bd62-2a91e2d6361c")
+	)
+	(group ""
+		(uuid "88aa561c-88aa-4700-9699-9abad2f2a8e9")
+		(members "2215686e-c737-4034-8f92-3e0d1a65d1b0" "24a3dcef-976a-42d6-ad3c-57073c8e1483"
+			"253b1659-1b34-41be-86c6-2a3f37e43ccc" "3e5e5780-23f2-4692-8e36-78e6b2dd4916"
+			"4d82bbe5-8a4c-45f2-8ff5-b59360fd8e0f" "60d861a2-ef33-43c9-8dc8-b926d658287b"
+			"65586811-db7b-461b-9114-c0c2015370d3" "664054f7-fa34-4f22-91d4-e0838f163fd8"
+			"7bb857ac-8aad-48ac-9370-ec83797c4e1c" "96cdee67-d297-4656-810f-1e20a792946e"
+			"a3399179-e7e3-4e4b-8c30-1fd2175ba263" "b1c5e2a2-2fca-4ea5-bedf-1f6b68a739da"
+			"c2da18db-573b-4be0-b115-cba0fe90e9e5" "f646981a-d4fd-4fe2-8ff9-c6c8597d25e9"
+		)
 	)
 	(embedded_fonts no)
 )

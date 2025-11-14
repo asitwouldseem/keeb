@@ -44715,7 +44715,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f646981a-d4fd-4fe2-8ff9-c6c8597d25e9")
 	)
-	(gr_text "80% ProMicro MCU Matrix\nRev. 1.3"
+	(gr_text "80% ProMicro MCU Matrix\nRev. 1.4"
 		(at 159.625 172.195 0)
 		(layer "B.SilkS")
 		(uuid "533a8e7c-e5d8-477e-b486-515173090354")
@@ -47942,14 +47942,6 @@
 		(layer "F.Cu")
 		(net 74)
 		(uuid "0a1713b4-dc25-4179-a396-ce11f027757e")
-	)
-	(segment
-		(start 237.33125 129.38125)
-		(end 237.33125 130.175)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 74)
-		(uuid "0fe0d2eb-449f-4d1b-8fc1-4289b6eeac9c")
 	)
 	(segment
 		(start 234.591994 167.659731)
